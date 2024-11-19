@@ -1,0 +1,184 @@
+#landing-section{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+#landing-section #text{
+    width: 50%;
+    height: 100%;
+    z-index: 7;
+}
+
+#landing-section #text .basic-text{
+    width: 100%;
+    font-size: 40px;
+    margin: 80px 0 0 50px;
+}
+
+#landing-section #text h1{
+    font-size: 100px;
+    width: 100%;
+    margin: 0 0 -60px 50px;
+    color: #4E4C4C;
+}
+
+#landing-section #text .bt{
+    margin: 80px 0 0 170px;
+    color: white;
+}
+
+#landing-section #text .bt2{
+    color: #878686;
+    margin: 75px 0 20px 50px;
+}
+
+#landing-section #text .text-oblique{
+    font-family: "Meow Script", cursive;
+}
+
+#landing-section #text .to{
+    margin: 0 0 0 343px;
+    font-size: 40px;
+    color: #4E4C4C;
+    font-family: "Meow Script", cursive;
+}
+
+#landing-section .decoUn{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 250px 0 0 120px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+}
+
+#landing-section .decoDeux{
+    width: 500px;
+    height: 210px;
+    border-radius: 30px;
+    margin: 450px 0 0 380px;
+    background-color: #D9D9D9;
+    position: absolute;
+    z-index: 0;
+}
+
+#landing-section .trokannouDevice{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    margin: 360px 0 0 80vh;
+}
+
+#landing-section .bricolDevice{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin: 75vh 0 0 10vh;
+}
+
+#landing-section #illustration{
+    width: 50%;
+}
+
+#landing-section #illustration img{
+    width: 80vh;
+    margin: 20px 0 0 100px;
+}
+
+#landing-section #illustration .socialmedia-list{
+    margin: 0 0 0 20px;
+}
+
+#landing-section #illustration .socialmedia-list .social-med{
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    border-radius: 80px;
+    position: absolute;
+}
+
+#landing-section #illustration .socialmedia-list .social-med1{
+    height: 70px;
+    width: 70px;
+    margin: -30vh 0 0 12vh;
+}
+
+#landing-section #illustration .socialmedia-list .social-med1 img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin: 0vh -3vh 0 0;
+}
+
+#landing-section #illustration .socialmedia-list .social-med2{
+    margin: -20vh 0 0 12vh;
+    background-color: white;
+}
+
+#landing-section #illustration .socialmedia-list .social-med2 img{
+    height: 70px;
+    width: 69px;
+    margin: 0vh -3vh 0 0;
+}
+
+#landing-section #illustration .socialmedia-list .social-med3{
+    margin: -10vh 0 0 12vh;
+}
+
+#landing-section #illustration .website{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    position: absolute;
+    margin: -82vh 0 0 81vh;
+}
+
+#landing-section #illustration .website img{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0; 
+}
+
+/* ***************************** */
+/* ***************************** */
+/* ***************************** */
+
+#texte-illustration {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    margin: 3vh 0 0 0;
+}
+
+#texte-illustration #text{
+    width: 50em;
+    margin: 0 0 0 10vh;
+}
+
+
+#texte-illustration #text h2{
+    font-size: 45px;
+}
+
+#texte-illustration #text p{
+    font-size: 22px;
+}
+
+#texte-illustration #illustration{
+    margin: 0 0 0 40vh;
+}
+
+#texte-illustration #illustration img{
+    height: 70vh;
+}
+
+#texte-illustration #illustration div .ombrageUn{
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    height: 40px;
+    width: 25vh;
+    border-radius: 50%;
+    filter: drop-shadow(10px 0 30px #000000);
+}

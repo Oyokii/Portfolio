@@ -1,0 +1,85 @@
+#parcours-container{
+    height: 150vh;
+    width: 100%;
+    background-color: black;
+}
+
+#parcours-container .ligne{
+    position: absolute;
+    margin: -35vh 0 0 70vh;
+    z-index: auto;
+}
+
+#parcours-container .experience{
+    width: 60em;
+    height: 15vh;
+    color: white;
+    font-size: 20px;
+    z-index: 3;
+}
+
+#parcours-container .expUn{
+    padding: 20vh 0 0 75vh;
+    z-index: auto;
+    position: absolute;
+}
+
+#parcours-container .expDeux{
+    padding: 40vh 0 0 75vh;
+    z-index: 3;
+    position: absolute;
+}
+
+#parcours-container .expTrois{
+    padding: 60vh 0 0 78vh;
+    z-index: 3;
+    position: absolute;
+}
+
+#parcours-container .expQuatre{
+    padding: 80vh 0 0 73vh;
+    z-index: 3;
+    position: absolute;
+}
+
+#parcours-container .expCinq{
+    padding: 105vh 0 0 80vh;
+    z-index: 3;
+    position: absolute;
+}
+
+#parcours-container .expSix{
+    padding: 120vh 0 0 71vh;
+    z-index: 3;
+    position: absolute;
+}
+
+#parcours-container .experience .icon{
+    background-color: #E6E6E6;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    z-index: 6;
+}
+
+#parcours-container .experience .icon img{
+    width: 60px;
+    margin: 5px 0 0 5px;
+    z-index: auto;
+}
+
+
+#parcours-container .experience .texte{
+    margin: 0 0 0 90px;
+}
+
+#parcours-container .experience .title{
+    color: #BD7AFF;
+}
+
+#parcours-container .experience .etablissement{
+    font-weight: 100;
+}
+#parcours-container .experience .dateTime{
+    font-weight: 100;
+}

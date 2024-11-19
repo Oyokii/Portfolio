@@ -1,0 +1,242 @@
+#news-container{
+    width: 90%;
+    height: 120vh;
+}
+
+#news-container #news{
+    display: flex;
+}
+/* ************************* */
+/* ************************* */
+/* ************************* */
+
+#news-container #news .left{
+    width: 50%;
+    height: 120vh;
+}
+
+#news-container #news .left .boxUn{
+    width: 500px;
+    height: 350px;
+    border-radius: 50px;
+    margin: 0 0 0 40vh;
+}
+
+
+#news-container #news .left .boxUn h2{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin: -30vh 0 0 20vh;
+    text-align: center;
+}
+
+#news-container #news .left .boxUn button{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    position: absolute;
+    margin: 35vh 0 0 -30vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#news-container #news .left .boxUn button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#news-container #news .left .boxUn img{
+    width: 500px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+#news-container #news .left .box-medium{
+    height: 500px;
+    width: 500px;
+    margin: 5vh 0 0 40vh;
+    border-radius: 50px;
+    display: flex;
+}
+
+#news-container #news .left .box-medium a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#news-container #news .left .box-medium a .boxDeux{
+    height: 500px;
+    width: 220px;
+    background-color: #FFC118;
+    border-radius: 50px;
+}
+
+
+#news-container #news .left .box-medium a .boxDeux img{
+    width: 190px;
+    margin: 0 0 0 10px;
+}
+
+
+#news-container #news .left .box-medium a .boxDeux h5{
+    font-size: 18px;
+    text-align: center;
+    margin: 10vh 0 0 0;
+}
+
+#news-container #news .left .box-medium a .boxDeux p{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 10px 0 0 ;
+    margin: 3vh 0 0 0;
+    text-align: end;
+}
+
+#news-container #news .left .box-medium a .boxDeux p span{
+    font-weight: 400;
+}
+
+
+#news-container #news .left .box-medium a .boxTrois{
+    height: 500px;
+    width: 220px;
+    background-color: #A259FF;
+    border-radius: 50px;
+    margin: 0 0 0 60px;
+}
+
+#news-container #news .left .box-medium a .boxTrois img{
+    width: 190px;
+    margin: 0 0 0 10px;
+}
+
+
+#news-container #news .left .box-medium a .boxTrois h5{
+    font-size: 18px;
+    text-align: center;
+    margin: 10vh 0 0 0;
+}
+
+#news-container #news .left .box-medium a .boxTrois p{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 10px 0 0 ;
+    margin: 3vh 0 0 0;
+    text-align: end;
+}
+
+#news-container #news .left .box-medium a .boxTrois p span{
+    font-weight: 400;
+}
+
+/* ************************* */
+/* ************************* */
+/* ************************* */
+
+#news-container #news .right{
+    width: 500px;
+    height: 120vh;
+    margin: 0 0 0 20vh;
+}
+
+#news-container #news .right a{
+    color: white;
+    text-decoration: none;
+}
+
+#news-container #news .right a .boxQuatre{
+    height: 180px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+#news-container #news .right a .boxQuatre .fond{
+    height: 180px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+#news-container #news .right a .boxQuatre .icone{
+    height: 40px;
+    width: 40px;
+    transform: rotate(-90deg);
+    border-radius: 50px;
+    position: absolute;
+    margin: 10vh 0 0 -36vh;
+}
+
+#news-container #news .right a .boxQuatre h5{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin: -5vh 0 0 50px;
+}
+
+
+#news-container #news .right a .boxCinq{
+    height: 180px;
+    width: 500px;
+    border-radius: 50px;
+    margin: 10vh 0 0 0;
+    background-color: black;
+}
+
+#news-container #news .right a .boxCinq .medium{
+    height: 60px;
+    width: 250px;
+    margin: 3vh 0 0 60px;
+}
+
+#news-container #news .right a .boxCinq h5{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+#news-container #news .right a .boxCinq p{
+    font-weight: 300;
+    color: white;
+    text-align: end;
+    padding: 15px 10vh 0 0;
+}
+
+#news-container #news .right a .boxCinq p span{
+    font-weight: 400;
+}
+
+
+
+#news-container #news .right a .boxSix{
+    height: 380px;
+    width: 500px;
+    border-radius: 50px;
+    margin: 10vh 0 0 0;
+}
+
+#news-container #news .right a .boxSix .fond{
+    height: 380px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+#news-container #news .right a .boxSix .icone{
+    height: 40px;
+    width: 40px;
+    transform: rotate(-90deg);
+    border-radius: 50px;
+    position: absolute;
+    margin: 20vh 0 0 -36vh;
+}
+
+#news-container #news .right a .boxSix h5{
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    margin: -16vh 0 0 55px;
+}

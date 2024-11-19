@@ -1,0 +1,16 @@
+#bricol-illustration-web-container{
+    width: 100%;
+    height: 70vh;
+}
+
+#bricol-illustration-web-container .title{
+    font-size: 50px;
+    padding: 15vh 0 0 50px;
+    color: white;
+    position: absolute;
+    font-family: "Meow Script", serif;
+}
+
+#bricol-illustration-web-container img{
+    width: 100%;
+}

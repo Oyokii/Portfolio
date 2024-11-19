@@ -1,0 +1,96 @@
+#outils-container{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+#outils-container img{
+    width: 50em;
+    height: 50vh;
+    margin: 10vh 0 0 10vh;
+}
+
+#outils-container div{
+    width: 50em;
+    margin: 15vh 0 0 10vh;
+}
+
+#outils-container div .title{
+    font-size: 25px;
+}
+
+#outils-container div p{
+    font-size: 22px;
+    margin: 20px 0 0 50px;
+}
+
+#outils-container .firebase{
+    width: 80px;
+    height: 80px;
+    margin: 80px 0 0 41em;
+    position: absolute;
+}
+
+#outils-container .css{
+    width: 70px;
+    height: 70px;
+    margin: 135px 0 0 32em;
+    position: absolute;
+}
+
+#outils-container .entity{
+    width: 160px;
+    height: 100px;
+    margin: 200px 0 0 32em;
+    position: absolute;
+}
+
+#outils-container .html{
+    width: 70px;
+    height: 70px;
+    margin: 270px 0 0 29em;
+    position: absolute;
+}
+
+#outils-container .sequelize{
+    width: 70px;
+    height: 80px;
+    margin: 310px 0 0 50em;
+    position: absolute;
+}
+
+#outils-container .angular{
+    width: 70px;
+    height: 80px;
+    margin: 400px 0 0 40em;
+    position: absolute;
+}
+
+#outils-container .flutter{
+    width: 70px;
+    height: 70px;
+    margin: 400px 0 0 15em;
+    position: absolute;
+}
+
+#outils-container .csharp{
+    width: 70px;
+    height: 70px;
+    margin: 350px 0 0 20em;
+    position: absolute;
+}
+
+#outils-container .figma{
+    width: 60px;
+    height: 60px;
+    margin: 230px 0 0 20em;
+    position: absolute;
+}
+
+#outils-container .github{
+    width: 60px;
+    height: 60px;
+    margin: 130px 0 0 10em;
+    position: absolute;
+}

@@ -1,0 +1,158 @@
+#presentation-container{
+    margin: 0;
+    height: 125vh;
+    width: 100%;
+}
+
+#presentation-container #presentation{
+    height: 80vh;
+}
+
+
+#presentation-container #presentation img{
+    width: 80%;
+    margin: 5vh 0 0 20vh;
+}
+
+#presentation-container #presentation .social-media{
+    width: 80vh;
+    height: 28vh;
+    position: absolute;
+    margin: -30vh 0 0 112vh;
+    display: flex;
+}
+
+#presentation-container #presentation .social-media .git{
+    height: 28vh;
+    width: 260px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#presentation-container #presentation .social-media .git img{
+    height: 100px;
+    width: 100px;
+    margin: 60px 0 0 80px;
+}
+
+#presentation-container #presentation .social-media div{
+    width: 300px;
+    margin: 0 0 0 20px;
+}
+
+#presentation-container #presentation .social-media div .linkedin{
+    width: 300px;
+    height: 13vh;
+    background-color: black;
+    border-radius: 20px;
+    margin: 0 0 0 0;
+}
+
+#presentation-container #presentation .social-media div .linkedin img{
+    height: 100px;
+    width: 100px;
+    margin: 3px 0 0 100px;
+}
+
+#presentation-container #presentation .social-media div .mail{
+    width: 300px;
+    height: 13vh;
+    background-color: black;
+    border-radius: 20px;
+    margin: 2vh 0 0 0;
+}
+
+#presentation-container #presentation .social-media div .mail img{
+    height: 100px;
+    width: 100px;
+    margin: 3px 0 0 100px;
+}
+
+/* ******************************* */
+/* ******************************* */
+/* ******************************* */
+
+#presentation-container #certifications{
+    margin: 0 0 0 20vh;
+}
+
+#presentation-container #certificationsDeux{
+    margin: 0 0 0 45vh;
+}
+
+#presentation-container .certification{
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#presentation-container .certification .certif-container{
+    display: flex;
+}
+
+#presentation-container .certification .certif-container .certif{
+    width: 320px;
+    height: 150px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    color: white;
+    z-index: -2;
+}
+
+#presentation-container .certification .certif-container .certif .decoPourcentage{
+    height: 150px;
+    background-color: #BD7AFF;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    z-index: -1;
+}
+
+#presentation-container .certification .certif-container .certif .decoPourcentageDeux{
+    width: 214px;
+}
+
+#presentation-container .certification .certif-container .certif .decoPourcentageTrois{
+    width: 208px;
+}
+
+#presentation-container .certification .certif-container .certif img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 110px;
+    z-index: 6;
+}
+
+#presentation-container .certification .certif-container .certif .nom-certif{
+    font-size: 20px;
+    text-align: center;
+    z-index: 6;
+}
+
+#presentation-container .certification .certif-container .cUn{
+    background-color: #BD7AFF;
+}
+
+#presentation-container .certification .certif-container .cQuatre{
+    background-color: #BD7AFF;
+}
+
+
+#presentation-container .certification .certif-container .pourcentage{
+    font-size: 30px;
+    padding: 40px 0 0 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+}
+
+#presentation-container .certification .certif-container .pUn{
+    color: #BD7AFF;
+}
+
+#presentation-container .certification .certif-container .pQuatre{
+    color: #BD7AFF;
+}

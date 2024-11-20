@@ -6,32 +6,36 @@
     font-weight: 500;
 }
 
-#header-container h5{
+#header-container .lien{
+    justify-content: space-between;
+    display: flex;
+}
+
+#header-container .lien h5{
     font-size: 30px;
     padding: 23px 0 0 60px;
     width: 400px;
 }
 
 
-#header-container ul{
+#header-container .lien .listeLien{
     display: flex;
     width: 35em;
     justify-content: space-evenly;
     font-size: 18px;
-    margin: -30px 0 0 50em;
+    margin: 30px 0 0 0;
 }
 
-#header-container ul a{
+#header-container .lien .listeLien a{
     text-decoration: none;
     color: #878686;
-
 }
 
-#header-container ul a li{
+#header-container .lien .listeLien a li{
     list-style-type: none;
 }
 
-#header-container ul a li div{
+#header-container .lien .listeLien a li div{
     background-color: black;
     border-radius: 40px;
     margin: -10px 0 0 0;
@@ -39,9 +43,65 @@
     width: 38px;
 }
 
-#header-container ul a li div img{
+#header-container .lien .listeLien a li div img{
     width: 40px;
 }
 
-#header-container ul .link{
+/* ************************* */
+/* ************************* */
+/* ************************* */
+#header-container .lien .icone{
+    width: 40px;
+    height: 50px;
+    margin: 10px 30px 0 0;
+}
+
+/* ************************* */
+/* ************************* */
+/* ************************* */
+
+#header-container .lien .listeLien .link{
+}
+
+
+/* ***********ECRAN PHONE*************** */
+@media (max-width:900px ) {
+    #header-container .lien h5{
+        font-size: 20px;
+    }
+
+    #header-container .lien .listeLien{
+        display: grid;
+        width: 170px;
+        height: 220px;
+        margin: 10vh 0 0 0;
+        padding: 0 0 0 40px;
+        position: absolute;
+        background-color: #DEDCDC;
+    }
+
+    #header-container .lien .listeLien a{
+        color: #878686;
+    }
+
+    #header-container .lien .listeLien a li div{
+        background-color: black;
+        border-radius: 40px;
+        margin: -8px 0 0 6em;
+        height: 28px;
+        width: 28px;
+        position: absolute;
+    }
+
+    #header-container .lien .listeLien a li div img{
+        width: 30px;
+    }
+}
+
+
+/* ***********ECRAN PC*************** */
+@media (min-width:900px) {
+    #header-container .lien .icone{
+        display: none;
+    }
 }

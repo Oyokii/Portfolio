@@ -1,37 +1,43 @@
 #footer-container{
-    height: 30vh;
+    height: 20vh;
     width: 100%;
-    background-color: black;
     color: white;
-    display: flex;
-    margin: 19vh 0 0 0;
+    top: 0;
+    background-color: black;
+    align-content: center;
 }
 
-#footer-container a {
+#footer-container .footer{
+    display: flex;
+    justify-content: space-between;
+    margin: -10vh 0 0 0;
+}
+
+#footer-container .footer a {
     text-decoration: none;
     color: white;
 }
 
-#footer-container a h5{
+#footer-container .footer a h5{
     font-size: 30px;
     margin: 100px 0 0 20px;
     width: 250px;
 }
 
-#footer-container ul{
+#footer-container .footer ul{
     display: flex;
     width: 40em;
+    padding: 12vh 0 0 20em;
     justify-content: space-between;
-    margin: 110px 0 0 31vh;
 }
 
-#footer-container ul a li{
+#footer-container .footer ul a li{
     list-style-type: none;
     font-size: 15px;
     font-weight: bold;
 }
 
-#footer-container p{
+#footer-container .footer  p{
     font-size: 15px;
     font-weight: 100;
     margin: 110px 0 0 35vh;
